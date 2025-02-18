@@ -39,5 +39,6 @@ git add VersionControl.md
 ```commandline
 git commit -m "First Comitt" 
 ```
+![Committing our file Image](picture14.JPG)
 
 We have now officially committed our first file. 
