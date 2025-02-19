@@ -8,7 +8,7 @@ Think of version control like a tree. The main trunk represents the main version
 ## What is Git? 
 
 Git is a version control system. Developers have the flexibility to work offline or from **remote** 
-<br/>locations since they maintain a **local** copy of the project's code repository. They can **commit** their changes locally and later **sync** them with the server. Git captures the state of all files at a specific moment, known as a **commit**. Each commit is connected to others, creating a continuous history of the project's development. There are a lot of key words here like commit, lets find out more. 
+<br/>locations since they maintain a **local** copy of the project's code repository. They can **commit** their changes locally and later **sync** them with the server. Git captures the state of all files at a specific moment, known as a **commit**. Each commit is connected to others, creating a continuous history of the project's development. There are a lot of keywords here like commit, lets find out more. 
 
 ![Git VCS Work Flow Image](/images/picture21.JPG) 
 ## The concept of Staging and Committing 
@@ -85,8 +85,8 @@ So we know how to stage and commit with Git but what if we want to take everythi
 - Next you want to create a new repo by clicking the + sign in the top right corner of your screen.
 ![creating a new repo on your github Image](images/picture18.JPG)
 - Simply give your repo a name and click generate. 
-- You should see on the current landing page a tab **HTTPS** with an url link, copy this. 
-- now simply head over to GitBash, remember to be in the correct directory. Also its good practice just to check which files are present, you don't want to share sensitive information you can use the following command. 
+- You should see on the current landing page a tab labeled **HTTPS** with an url link, copy this. 
+- now simply head over to GitBash, remember to be in the correct directory. Also, its good practice just to check which files are present, you don't want to share sensitive information you can use the following command. 
 ```commandline
 ls 
 ```
