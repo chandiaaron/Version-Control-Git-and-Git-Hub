@@ -56,4 +56,43 @@ GitHub is an online platform that hosts remote Git repositories, allowing develo
 
 ## What is Distributed VC?
 
-![Distributed VC Image](picture16.JPG) 
+![Distributed VC Image](picture16.jpg) 
+
+Distributed Version Control is a system that allows multiple developers to work on a project 
+<br/> simultaneously without relying on a central server. Instead, every developer has a full copy of the 
+<br/> entire project history on their own machine. Refer to the diagram above for further clarification. 
+
+### Distributed Version Control (DVC) vs. Not Using DVC using:
+| Feature                 | With DVC (Git)                                 | Without DVC                               |
+|-------------------------|------------------------------------------------|-------------------------------------------|
+| **History Tracking**    | Yes, full history                              | No history, only latest version           |
+| **Collaboration**       | Easy, multiple users can work simultaneously   | Difficult, manual file sharing            |
+| **Offline Work**        | Yes, full local repository                     | No, depends on manual backups             |
+| **Branching & Merging** | Supported, seamless switching between versions | Not possible, manual file copies required |
+| **Data Safety**         | Secure, every user has a copy                  | Risky, single copy can be lost            |
+
+## How to sync a remote repository with a local repository 
+
+So we know how to stage and commit with Git but what if we want to take everything to remote repository like GitHub.
+![moving everything from a local repo to remote repo Image](picture17.JPG) 
+
+### Step-by-Step Guide to sync your local repo with a remote repo :
+
+- First you need to create or have an existing GitHub account, for those who don't have an account use the following link to create one : [GitHub](https://github.com/) 
+- Next you want to create a new repo by clicking the + sign in the top right corner of your screen.
+![creating a new repo on your github Image](picture18.JPG)
+- Simply give your repo a name and click generate. 
+- You should see on the current landing page a tab **HTTPS** with an url link, copy this. 
+- now simply head over to GitBash, remember to be in the correct directory. Also its good practice just to check which files are present, you don't want to share sensitive information you can use the following command. 
+```commandline
+ls 
+```
+- Once you are happy with everything, we can now use that url to sync the two repos. 
+```commandline
+git remote add origin "URL LINK" 
+```
+![syn complete Image](picture19.JPG)
+- Lastly we want to push everything with the following command, any updates you make in the future on your local repo you can simply push, if you are unsure remember to use the status command to grasp what's actually happening.
+```commandline
+git push  
+```
