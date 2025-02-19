@@ -1,4 +1,4 @@
-# Version Control, Git, and Github
+# Version Control, Git, and GitHub
 
 ## What is version Control?
 
@@ -42,3 +42,18 @@ git commit -m "First Comitt"
 ![Committing our file Image](picture14.JPG)
 
 We have now officially committed our first file. 
+
+# What is GitHub? 
+
+GitHub is an online platform that hosts remote Git repositories, allowing developers to store, 
+<br/>manage, and collaborate on code projects from anywhere. 
+
+## How is GitHub different to Git? 
+
+- Git is a distributed version control system that runs locally on your computer. 
+<br/> It tracks changes, manages branches, and allows for collaboration through commits and merges.
+- GitHub is a cloud-based remote repository hosting service that extends Git by providing an online platform for storing, sharing, and collaborating on Git repositories.
+
+## What is Distributed VC?
+
+![Distributed VC Image](picture16.JPG) 
