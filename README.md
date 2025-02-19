@@ -6,7 +6,8 @@ Version control is a system that tracks changes to files over time, so you can r
 
 ## What is Git? 
 
-Git is a version control system.
+Git is a version control system. Developers have the flexibility to work offline or from **remote** 
+<br/>locations since they maintain a **local** copy of the project's code repository. They can **commit** their changes locally and later **sync** them with the server. Git captures the state of all files at a specific moment, known as a **commit**. Each commit is connected to others, creating a continuous history of the project's development. There are a lot of key words here like commit, lets find out more. 
 
 ## The concept of Staging and Committing 
 
@@ -28,18 +29,18 @@ git init
 ```commandline
 git status
 ```
-![Checking Status Image](picture15.JPG)  
+![Checking Status Image](images/picture15.JPG)  
 - we can now send our file to the staging area. Check the status again, did you notice the change? 
 ```commandline
 git add VersionControl.md
 ```
-![sending our file to the staging area Image](picture13.JPG) 
+![sending our file to the staging area Image](images/picture13.JPG) 
 
 - We are now at the final step, ready to fully commit our file. A commit message serves as documentation for the changes you've made. 
 ```commandline
 git commit -m "First Comitt" 
 ```
-![Committing our file Image](picture14.JPG)
+![Committing our file Image](images/picture14.JPG)
 
 We have now officially committed our first file. 
 
@@ -56,7 +57,7 @@ GitHub is an online platform that hosts remote Git repositories, allowing develo
 
 ## What is Distributed VC?
 
-![Distributed VC Image](picture16.jpg) 
+![Distributed VC Image](images/picture16.JPG) 
 
 Distributed Version Control is a system that allows multiple developers to work on a project 
 <br/> simultaneously without relying on a central server. Instead, every developer has a full copy of the 
@@ -74,13 +75,13 @@ Distributed Version Control is a system that allows multiple developers to work 
 ## How to sync a remote repository with a local repository 
 
 So we know how to stage and commit with Git but what if we want to take everything to remote repository like GitHub.
-![moving everything from a local repo to remote repo Image](picture17.JPG) 
+![moving everything from a local repo to remote repo Image](images/picture17.JPG) 
 
 ### Step-by-Step Guide to sync your local repo with a remote repo :
 
 - First you need to create or have an existing GitHub account, for those who don't have an account use the following link to create one : [GitHub](https://github.com/) 
 - Next you want to create a new repo by clicking the + sign in the top right corner of your screen.
-![creating a new repo on your github Image](picture18.JPG)
+![creating a new repo on your github Image](images/picture18.JPG)
 - Simply give your repo a name and click generate. 
 - You should see on the current landing page a tab **HTTPS** with an url link, copy this. 
 - now simply head over to GitBash, remember to be in the correct directory. Also its good practice just to check which files are present, you don't want to share sensitive information you can use the following command. 
@@ -91,7 +92,7 @@ ls
 ```commandline
 git remote add origin "URL LINK" 
 ```
-![syn complete Image](picture19.JPG)
+![syn complete Image](images/picture19.JPG)
 - Lastly we want to push everything with the following command, any updates you make in the future on your local repo you can simply push, if you are unsure remember to use the status command to grasp what's actually happening.
 ```commandline
 git push  
