@@ -28,7 +28,7 @@ git init
 ```commandline
 git status
 ```
-![Checking Status Image](picture12.jpg)  
+![Checking Status Image](gitstatus.jpg)  
 - we can now send our file to the staging area. Check the status again, did you notice the change? 
 ```commandline
 git add VersionControl.md
